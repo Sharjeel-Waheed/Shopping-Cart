@@ -1,0 +1,32 @@
+.Not-Found { 
+    text-align: center;
+    color: #000000; 
+    padding: 20px; 
+    font-size: 30px;
+    font-family: Arial, sans-serif; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow:10px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 576px) {
+    .Not-Found {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Not-Found {
+      font-size: 26px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .Not-Found {
+      font-size: 36px;
+    }
+  }

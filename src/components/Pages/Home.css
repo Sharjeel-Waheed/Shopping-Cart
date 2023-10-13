@@ -1,0 +1,139 @@
+.home-container {
+  background: #f3f3f3;
+}
+
+.container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.Categories {
+  background: #fdd3d3;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.category {
+  background: #fff;
+  border-bottom: 1px double #585555;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.category.selected {
+  background-color: #3f51b5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  position: relative; 
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-title {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.Detail_btn {
+  margin-top: 5px;
+  background-color: rgb(171, 170, 171);
+  max-width: 100px;
+}
+
+.Detail_btn a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.Detail_btn:hover {
+  background-color: rgb(126, 125, 125);
+}
+
+.product-price {
+  font-size: 18px;
+  color: #ff5733;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .home-title {
+    font-size: 20px;
+  }
+
+  .product-card {
+    width: 48%;
+    margin: 2%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 5px;
+  }
+
+  .home-title {
+    font-size: 18px;
+  }
+
+  .product-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
